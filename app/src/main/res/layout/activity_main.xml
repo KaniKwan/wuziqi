@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    tools:context="com.example.administrator.mywuziqiapplication.MainActivity">
+
+
+
+    <com.example.administrator.mywuziqiapplication.WuziqiPanel
+        android:id="@+id/main_wuziqi"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/main_btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重置"
+        android:layout_below="@id/main_wuziqi"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorBtnReserBg"
+        android:textSize="16sp"/>
+</RelativeLayout>
